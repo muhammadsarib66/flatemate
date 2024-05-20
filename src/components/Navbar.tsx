@@ -2,6 +2,7 @@ import Logo from "../Images/FlateMate.svg";
 import Logoo from "../Images/Logo";
 import Menu from "../Images/Menu";
 import MyBtn from "./MyBtn";
+import { Link } from "react-router-dom";
 import { useNavigate } from "react-router";
 
 const Navbar = () => {
@@ -24,12 +25,14 @@ const Navbar = () => {
         <div className="flex  gap-8">
           {" "}
           {NavTabs.map((tab) => (
+            <Link to={tab?.link}>
             <span
               key={tab.title}
               className={`inline-block   capitalize border-b-2 border-primary hover:border-onPrimary duration-300 ease-in-out transition hover:scale-110  hover:text-onPrimary text-lg font-bold text-white`}
-            >
+              >
               <a href={tab.link}>{tab.title}</a>
             </span>
+              </Link>
           ))}
         </div>
         <div>

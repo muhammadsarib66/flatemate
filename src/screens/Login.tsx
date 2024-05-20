@@ -5,6 +5,7 @@ import Logo from '../Images/FlateMate.svg'
 import { Typography, Input, Button } from "@material-tailwind/react";
 import VisibilityIcon from "@mui/icons-material/Visibility";
 import VisibilityOffIcon from "@mui/icons-material/VisibilityOff";
+import { Link } from "react-router-dom";
 
 export function Login() {
   const [passwordShown, setPasswordShown] = useState(false);
@@ -26,7 +27,16 @@ export function Login() {
             <h2 className="pl-20">Create Account and Move Forward</h2>
             </div>
       </div>
-      <div className="flex-1 px-2  ">
+      <div className=" h-screen pt-4  flex-1 px-2  ">
+        <div className=" cursor-pointer flex justify-end pr-2">
+
+        <div className=" duration transition ease-in-out hover:scale-110 hover:animate-pulse  text-secondary  w-12 h-12 flex justify-center items-center bg-primary rounded-full">
+       <Link to="/">
+
+       <i className="fa-solid fa-house"></i>
+       </Link>
+        </div>
+        </div>
         <Typography
           placeholder=""
           onPointerEnterCapture={() => {}}
