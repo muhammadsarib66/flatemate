@@ -95,7 +95,7 @@ const Featured = () => {
           </h1>
         </div>
         <div className=" w-full flex justify-center overflow-hidden ">
-        <Slider {...settings}>
+        <Slider style={{width: '80%', border: 'none'}} {...settings}>
             {ArtistArray.map((item, ind) => {
               return (
               
