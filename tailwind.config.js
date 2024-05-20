@@ -1,6 +1,8 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
+/* eslint-disable no-undef */
 
 const withMT = require("@material-tailwind/react/utils/withMT");
-const { colors } = require("@mui/material");
+// const { colors } = require("@mui/material");
  
 module.exports = withMT({
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],

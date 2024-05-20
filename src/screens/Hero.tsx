@@ -4,7 +4,6 @@ import Heroimg2 from "../Images/hero2.webp"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { ReactTyped } from "react-typed";
-import MyBtn from "./../components/MyBtn";
 
 function Hero() {
   const settings = {
@@ -38,7 +37,7 @@ function Hero() {
             <div className=" md:w-[500px]">
                 <h2 className="font-bold text-lg md:text-2xl text-primary">
 
-            Lorem Ipsum is simply dummy text of the printing and typesetting
+            Lorem Ipsumis simply dummy text of the printing and typesetting
                 </h2>
             </div>
             <div className=" cursor-pointer  flex  gap-2 text-md  md:text-xl font-semibold c items-center   text-onPrimary">

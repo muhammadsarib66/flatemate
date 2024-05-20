@@ -1,4 +1,3 @@
-import React from "react";
 import Tower from "../Images/tower.png"
 import feat1 from "../Images/feat1.svg"
 import feat2 from "../Images/feat2.svg"
@@ -22,7 +21,7 @@ const Promotion = () => {
         </p>
         <div className="w-fit">
 
-        <MyBtn title="Book Now" style="px-8 md:px-14 py-3" icon={ <i className=" fa-solid fa-arrow-right"></i>} />
+        <MyBtn onclick={()=>{}} title="Book Now" style="px-8 md:px-14 py-3" icon={ <i className=" fa-solid fa-arrow-right"></i>} />
             </div>
         </div>
         <div className="  grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-8 w-full">

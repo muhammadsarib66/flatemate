@@ -13,6 +13,10 @@ const SearchHouse = () => {
             <p className="text-secondary text-sm"> Location</p>
 
             <Input
+             placeholder=""
+             onPointerEnterCapture={() => {}}
+             onPointerLeaveCapture={() => {}}
+             crossOrigin=""
               className="bg-white  outline-none transform-none border-none"
               icon={<i className="fa-solid fa-magnifying-glass"></i>}
             />
@@ -20,20 +24,34 @@ const SearchHouse = () => {
           <div>
             <p className="text-secondary text-sm"> Check in</p>
 
-            <Input type="date" className="bg-white    " />
+            <Input
+              type="date"
+              className="bg-white"
+              placeholder=""
+              onPointerEnterCapture={() => {}}
+              onPointerLeaveCapture={() => {}}
+              crossOrigin=""
+            />
           </div>
           <div>
             <p className="text-secondary text-sm"> Check out </p>
 
-            <Input className="bg-white    " />
+            <Input  placeholder=""
+              onPointerEnterCapture={() => {}}
+              onPointerLeaveCapture={() => {}}
+              crossOrigin="" className="bg-white    " />
           </div>
           <div>
             <p className="text-secondary text-sm"> Location</p>
-            <Input type="date" className="bg-white  outline-none " />
+            <Input  placeholder=""
+              onPointerEnterCapture={() => {}}
+              onPointerLeaveCapture={() => {}}
+              crossOrigin="" type="date" className="bg-white  outline-none " />
           </div>
         </div>
         <div className="flex md:justify-end py-4 ">
           <MyBtn
+          onclick={()=>{}}
             title="Search FlateMate"
             icon={<i className=" fa-solid fa-arrow-right"></i>}
             style="  bg-onPrimary  w-full md:w-[200px] h-12 rounded-lg text-white font-bold"

@@ -29,9 +29,9 @@
   background-color: #a8bbbf;
 }
 
-
-
-
-
-.slick-list {margin: 0 -15px;}
-.slick-slide>div {padding: 0 15px;}
+.slick-list {
+  margin: 0 -15px;
+}
+.slick-slide > div {
+  padding: 0 15px;
+}

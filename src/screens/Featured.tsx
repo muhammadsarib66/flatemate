@@ -3,7 +3,6 @@ import image1 from "../Images/KqMaA8gDfl0 (1).png";
 import image2 from "../Images/KqMaA8gDfl0 (2).png";
 import image3 from "../Images/hero2.webp";
 import Slider from "react-slick";
-import { Margin } from "@mui/icons-material";
 import MyBtn from "../components/MyBtn";
 
 const Featured = () => {
@@ -96,7 +95,7 @@ const Featured = () => {
           </h1>
         </div>
         <div className=" w-full flex justify-center overflow-hidden ">
-          <Slider style={{ width: "90%", border: "none",   }} {...settings}>
+        <Slider {...settings}>
             {ArtistArray.map((item, ind) => {
               return (
               
@@ -133,7 +132,7 @@ const Featured = () => {
                     <p className="font-semibold"><sup>pkr</sup> {item?.price}</p>
                   </div>
                   <div className="flex justify-center">
-                    <MyBtn  title="View More" style="w-[80%] h-12  " icon={ <i className=" fa-solid fa-arrow-right"></i>} />
+                    <MyBtn  onclick={()=>{}} title="View More" style="w-[80%] h-12  " icon={ <i className=" fa-solid fa-arrow-right"></i>} />
 
                   </div>
                 </div>
