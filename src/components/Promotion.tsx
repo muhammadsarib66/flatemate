@@ -1,7 +1,7 @@
 import Tower from "../Images/tower.png"
-import feat1 from "../Images/feat1.svg"
-import feat2 from "../Images/feat2.svg"
-import feat3 from "../Images/feat3.svg"
+import feat1 from "../Images/image1.png"
+import feat2 from "../Images/image2.png"
+import feat3 from "../Images/image3.png"
 import feat4 from "../Images/KqMaA8gDfl0 (2).png"
 import MyBtn from "./MyBtn";
 
