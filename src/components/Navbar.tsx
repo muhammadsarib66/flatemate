@@ -85,10 +85,10 @@ const Navbar = () => {
           </div>
             <div className="flex justify-center gap-4 ">
               {
-                socialTab.map((tab)=>{
+                socialTab.map((tab,ind)=>{
                   return(
                     <div 
-                        key={tab.icon}
+                        key={ind}
                         className={` rounded-full flex items-center w-12 h-12 justify-center bg-onPrimary border-2 border-primary hover:border-onPrimary duration-300 ease-in-out transition hover:scale-110  hover:text-primary text-xl  text-primary`}
                         >
                         {tab.icon}
