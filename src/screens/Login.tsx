@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { useState } from "react";
-
+import Logo from '../Images/FlateMate.svg'
 
 import { Typography, Input, Button } from "@material-tailwind/react";
 import VisibilityIcon from "@mui/icons-material/Visibility";
@@ -11,15 +11,22 @@ export function Login() {
   const togglePasswordVisiblity = () => setPasswordShown((cur) => !cur);
 
   return (
-    <section className="flex text-center h-screen items-center ">
-      <div className="flex-1 flex flex-col items-center justify-center bg-[#023047] h-screen overflow-y-hidden">
+    <section className="flex  font-Montserrat  text-center h-screen items-center ">
+      <div className="flex-1 hidden text-start md:flex flex-col justify-between bg-[#023047] h-screen overflow-y-hidden">
+        <div className="py-20 pl-20">
+
         <img
-          src={''}
+          src={Logo}
           alt="logo"
-          className="w-[80%] h-[400px] object-contain "
-        />
+          className="  w-80 h-fit object-contain "
+          />
+          </div>
+          <div className="pb-20 text-secondary ">
+            <h1 className="pl-20 text-3xl font-bold">Create Account</h1>
+            <h2 className="pl-20">Create Account and Move Forward</h2>
+            </div>
       </div>
-      <div className="flex-1">
+      <div className="flex-1 px-2  ">
         <Typography
           placeholder=""
           onPointerEnterCapture={() => {}}

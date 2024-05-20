@@ -2,8 +2,10 @@ import Logo from "../Images/FlateMate.svg";
 import Logoo from "../Images/Logo";
 import Menu from "../Images/Menu";
 import MyBtn from "./MyBtn";
+import { useNavigate } from "react-router";
 
 const Navbar = () => {
+  const navigate = useNavigate()
   const NavTabs = [
     { title: "Home", link: "/" },
     { title: "About us", link: "/about" },
@@ -31,7 +33,7 @@ const Navbar = () => {
           ))}
         </div>
         <div>
-          <MyBtn onclick={()=>{}} title="Sign up" style={"w-fit px-12 py-3 capitalize"} />
+          <MyBtn onclick={()=>navigate('login')} title="Sign up" style={"w-fit px-12 py-3 capitalize"} />
         </div>
       </section>
 
