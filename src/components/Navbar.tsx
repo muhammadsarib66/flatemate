@@ -36,7 +36,7 @@ const Navbar = () => {
           ))}
         </div>
         <div>
-          <MyBtn onclick={()=>navigate('login')} title="Sign up" style={"w-fit px-12 py-3 capitalize"} />
+          <MyBtn onclick={()=>navigate('signup')} title="Sign up" style={"w-fit px-12 py-3 capitalize"} />
         </div>
       </section>
 
