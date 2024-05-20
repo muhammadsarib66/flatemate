@@ -9,7 +9,7 @@ const SearchHouse = () => {
       </h1>
       <div>
         <div className=" grid grid-cols-1 md:grid-cols-4 gap-2 md:gap-5">
-          <div>
+          <div className="w-full">
             <p className="text-secondary text-sm"> Location</p>
 
             <Input
@@ -21,7 +21,7 @@ const SearchHouse = () => {
               icon={<i className="fa-solid fa-magnifying-glass"></i>}
             />
           </div>
-          <div>
+          <div className="w-full">
             <p className="text-secondary text-sm"> Check in</p>
 
             <Input
@@ -33,15 +33,15 @@ const SearchHouse = () => {
               crossOrigin=""
             />
           </div>
-          <div>
-            <p className="text-secondary text-sm"> Check out </p>
+          <div className="w-full">
+            <p className="text-secondary  text-sm"> Check out </p>
 
             <Input  placeholder=""
               onPointerEnterCapture={() => {}}
               onPointerLeaveCapture={() => {}}
               crossOrigin="" className="bg-white    " />
           </div>
-          <div>
+          <div className="w-full">
             <p className="text-secondary text-sm"> Location</p>
             <Input  placeholder=""
               onPointerEnterCapture={() => {}}
