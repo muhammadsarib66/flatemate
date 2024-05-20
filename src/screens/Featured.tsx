@@ -1,7 +1,7 @@
 import image from "../Images/KqMaA8gDfl0.png";
 import image1 from "../Images/KqMaA8gDfl0 (1).png";
 import image2 from "../Images/KqMaA8gDfl0 (2).png";
-import image3 from "../Images/hero2.webp";
+import image3 from "../Images/KqMaA8gDfl0.png";
 import Slider from "react-slick";
 import MyBtn from "../components/MyBtn";
 
@@ -56,6 +56,8 @@ const Featured = () => {
     pauseOnHover: false,
     pauseOnFocus: true,
     initialSlide: 0,
+    variableWidth: true,
+
     responsive: [
       {
         breakpoint: 1024,
@@ -95,7 +97,7 @@ const Featured = () => {
           </h1>
         </div>
         <div className=" w-full flex justify-center overflow-hidden ">
-        <Slider style={{width: '80%', border: 'none'}} {...settings}>
+        <Slider   {...settings}>
             {ArtistArray.map((item, ind) => {
               return (
               
