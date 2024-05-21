@@ -16,8 +16,8 @@ const Footer = () => {
   ];
   return (
     <footer className="font-Montserrat grid grid-cols-1 md:grid-cols-4 gap-3 md:place-items-center px-6 py-4 md:px-14 md:py-12 h-fit bg-primary text-secondary">
-      <div className="col-span-1 flex items-start flex-col gap-2 md:gap-4">
-        <img src={Logo} alt="logo" className=" h-[42px] md:h-[82px]" />
+      <div className="col-span-1 flex items-start flex-col  gap-4">
+        <img src={Logo} alt="logo" className=" h-[36px] md:h-[82px]" />
         <p className="text-xs md:text-sm tracking-wider">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever

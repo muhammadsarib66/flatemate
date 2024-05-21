@@ -91,7 +91,7 @@ const Featured = () => {
 
   return (
     <section className="flex flex-col justify-center bg-secondary">
-      <div className=" md:py-24">
+      <div className=" py-10 md:py-24">
         <div className="pl-20 pb-10">
           <h1 className="text-2xl  capitalize font-Montserrat font-bold text-primary underline-offset-8 underline ">
             Featured Hostels

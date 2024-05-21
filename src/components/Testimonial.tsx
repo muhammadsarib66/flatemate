@@ -88,7 +88,7 @@ const Testimonial = () => {
                   key={ind}
                   className=" cursor-pointer max-w-[100%]  group rounded-lg  transition ease-in-out  bg-white p-4 duration-300  hover:shadow-lg "
                 >
-                  <div className="flex flex-col gap-4  w-[250px] md:w-[500px] py-3 md:py-8 px-7 md:px-12 text-primary  ">
+                  <div className="flex flex-col gap-4   w-[250px] md:w-[500px] py-3 md:py-8 px-7 md:px-12 text-primary  ">
                     <div className="">
                       <img
                         src={item.image}
