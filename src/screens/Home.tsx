@@ -1,7 +1,9 @@
 import SearchHouse from "../SearchHouse"
+import Footer from "../components/Footer"
 import Navbar from "../components/Navbar"
 import Promotion from "../components/Promotion"
 import SearchPlace from "../components/SearchPlace"
+import Testimonial from "../components/Testimonial"
 import Featured from "./Featured"
 import Hero from "./Hero"
 
@@ -19,6 +21,8 @@ const Home = () => {
         </div>
           <Featured />
           <Promotion />
+          <Testimonial />
+          <Footer />
    </>
   )
 }

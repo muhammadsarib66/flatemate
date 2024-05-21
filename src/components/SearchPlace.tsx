@@ -21,7 +21,7 @@ const SearchPlace = () => {
     },
   ];
   return (
-    <div className=" text-primary flex flex-col pt-[400px] md:justify-end  pb-16 center items-center gap-8 w-full h-full md:h-[400px] bg-onSecondary">
+    <div className="  text-primary flex flex-col pt-[400px] md:justify-end  pb-16 center items-center gap-8 w-full h-full md:h-[400px] bg-onSecondary">
       <h1 className=" font-bold text-4xl">How it works</h1>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 place-self-center   place-items-center place-content-center ">
             {detailBox.map((item, ind) => (

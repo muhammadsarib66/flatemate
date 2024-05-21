@@ -29,20 +29,9 @@
   background-color: #a8bbbf;
 }
 
-.slick-list {
-  margin: 0 -15px;
-}
-.slick-slide > div {
-  padding: 0 15px;
-}
-
-.Slider{
-  width: 80% !important;
-  border: none !important; 
-}
-
-.slider-container {
-  /* max-width: 100vw; */
-  width: 80%;
-  overflow: hidden;
+.testimoImage{
+  background-image: url('./Images//testimo.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }

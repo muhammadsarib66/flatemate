@@ -4,6 +4,7 @@ import image2 from "../Images/KqMaA8gDfl0 (2).png";
 import image3 from "../Images/KqMaA8gDfl0.png";
 import Slider from "react-slick";
 import MyBtn from "../components/MyBtn";
+import './featured.css'
 
 const Featured = () => {
   const ArtistArray = [
@@ -42,7 +43,7 @@ const Featured = () => {
     },
   ];
 
-  const settings = {
+   const settings = {
     className: "center",
     centerMode: true,
     infinite: true,
@@ -101,7 +102,7 @@ const Featured = () => {
             {ArtistArray.map((item, ind) => {
               return (
               
-                <div key={ind} className="  rounded-lg bg-white p-4 duration-300 hover:scale-110 hover:shadow-lg ">
+                <div key={ind} className="Mydiv  rounded-lg bg-white p-4 duration-300 hover:scale-110 hover:shadow-lg ">
                   <div className="rounded-lg  cursor-pointer  border-none  h-[250px] md:h-[350px] relative max-w-[95%]  md:min-w-[100%] md:max-w-[100%] ">
                     <img
                       src={item?.img}
