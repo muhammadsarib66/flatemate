@@ -4,11 +4,12 @@ import Login from "./screens/Login";
 import About from "./screens/About";
 import Contact from "./screens/Contact";
 import Signup from "./screens/Signup";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <>
-      
+        <ScrollToTop />
         <Routes>
           <Route path="*"  element={<Home />} />
           <Route path="/signup" element={<Signup />} />

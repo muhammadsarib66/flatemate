@@ -57,8 +57,8 @@ const Navbar = () => {
         </div>
         
       </section>
-      <div className={` fixed ${open ? "top-0" : "top-[-1000px]"} duration-300   z-[201] overflow-hidden flex justify-between py-20 flex-col md:hidden h-screen bg-primary w-full`}>
-          <div className="flex justify-between w-full  p-2">
+      <div className={` fixed ${open ? "top-0" : "top-[-1000px]"} duration-300   z-[201] overflow-hidden flex justify-between pt-10 pb-24 flex-col md:hidden h-screen bg-primary w-full`}>
+          <div className="flex justify-between w-full  p-5">
             
           <img src={Logo} alt="logo" className="w-[180px] h-[41px] object-contain"/>
             
@@ -83,6 +83,15 @@ const Navbar = () => {
               })
             }
           </div>
+          <div className="flex  justify-start pl-6 ">
+            <Link to='/signup'>
+              <MyBtn
+                onclick={() => {}}
+                title="Sign Up"
+                style="w-[100%]  px-5 py-2"
+              />
+              </Link>
+            </div>
             <div className="flex justify-center gap-4 ">
               {
                 socialTab.map((tab,ind)=>{
@@ -96,7 +105,10 @@ const Navbar = () => {
                     </div>
                   )
                 }
+
                 )
+             
+                
               }
             </div>
         </div>
