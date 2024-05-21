@@ -1,4 +1,3 @@
-import React from "react";
 import Logo from "../Images/FlateMate.svg";
 import { Link } from "react-router-dom";
 
