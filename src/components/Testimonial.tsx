@@ -2,7 +2,6 @@ import Slider from "react-slick";
 import image1 from "../Images/image1.png";
 import image2 from "../Images/image2.png";
 import image3 from "../Images/image3.png";
-import { Opacity } from "@mui/icons-material";
 import MyBtn from "./MyBtn";
 
 const Testimonial = () => {
@@ -24,39 +23,7 @@ const Testimonial = () => {
       image: image3,
     },
   ];
-  // const GalleryPrevArrow = ({ currentSlide, slideCount, ...props }) => {
-  //   const { className, onClick } = props;
-
-  //   return (
-  //     <div {...props} className="custom-prevArrow" onClick={onClick}>
-  //       <svg
-  //         xmlns="http://www.w3.org/2000/svg"
-  //         width="24"
-  //         height="24"
-  //         viewBox="0 0 24 24"
-  //       >
-  //         <path d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z" />
-  //       </svg>
-  //     </div>
-  //   );
-  // };
-  // const GalleryNextArrow = ({ currentSlide, slideCount, ...props }) => {
-  //   const { className, onClick } = props;
-
-  //   return (
-  //     <div {...props} className="bg-blue-500" onClick={onClick}>
-  //       <svg
-  //         xmlns="http://www.w3.org/2000/svg"
-  //         width="24"
-  //         height="24"
-  //         viewBox="0 0 24 24"
-  //       >
-  //         <path d="M7.33 24l-2.83-2.829 9.339-9.175-9.339-9.167 2.83-2.829 12.17 11.996z" />
-  //       </svg>
-  //     </div>
-  //   );
-  // };
-
+  
   const settings = {
     className: "center",
     centerMode: true,
@@ -149,7 +116,7 @@ const Testimonial = () => {
 
             <h1 className="text-2xl font-bold font-Montserrat">Become a Host</h1>
             <p className=" font-semibold font-Montserrat">Join thousands of Landlords and earn an extra income.</p>
-            <MyBtn title="learn More" style="capitalize w-fit px-5 py-2 text-sm font-Montserrat" />
+            <MyBtn onclick={()=>{}} title="learn More" style="capitalize w-fit px-5 py-2 text-sm font-Montserrat" />
           </div>
           </div>
         </div>
