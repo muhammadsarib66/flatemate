@@ -1,15 +1,10 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { useState } from "react";
 import Logo from "../Images/FlateMate.svg";
 
 import { Typography, Input, Button } from "@material-tailwind/react";
-import VisibilityIcon from "@mui/icons-material/Visibility";
-import VisibilityOffIcon from "@mui/icons-material/VisibilityOff";
 import { Link } from "react-router-dom";
 
 export function ForgetPass() {
-  const [passwordShown, setPasswordShown] = useState(false);
-  const togglePasswordVisiblity = () => setPasswordShown((cur) => !cur);
 
   return (
     <section className="flex  font-Montserrat  w-full text-center h-screen items-center ">
