@@ -140,7 +140,10 @@ export function Login() {
               variant="small"
               className="font-medium"
             >
+              <Link to="/forgetpass">
+
               Forgot password
+              </Link>
             </Typography>
           </div>
           <Button

@@ -30,7 +30,7 @@ export function Signup() {
             </Link>
           </div>
         </div>
-        <div className="flex flex-col justify-start items-start p-4 md:px-20 md:py-10">
+        <div className="flex flex-col justify-start items-start p-4 md:px-20 md:py-4">
         <Typography
           placeholder=""
           onPointerEnterCapture={() => {}}
