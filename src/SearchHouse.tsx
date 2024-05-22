@@ -13,10 +13,10 @@ const SearchHouse = () => {
             <p className="text-secondary text-sm"> Location</p>
 
             <Input
-             placeholder=""
-             onPointerEnterCapture={() => {}}
-             onPointerLeaveCapture={() => {}}
-             crossOrigin=""
+              placeholder=""
+              onPointerEnterCapture={() => {}}
+              onPointerLeaveCapture={() => {}}
+              crossOrigin=""
               className="bg-white  outline-none transform-none border-none"
               icon={<i className="fa-solid fa-magnifying-glass"></i>}
             />
@@ -36,22 +36,31 @@ const SearchHouse = () => {
           <div className="w-full">
             <p className="text-secondary  text-sm"> Check out </p>
 
-            <Input  placeholder=""
+            <Input
+              type="date"
+              placeholder=""
               onPointerEnterCapture={() => {}}
               onPointerLeaveCapture={() => {}}
-              crossOrigin="" className="bg-white    " />
+              crossOrigin=""
+              className="bg-white    "
+            />
           </div>
           <div className="w-full">
-            <p className="text-secondary text-sm"> Location</p>
-            <Input  placeholder=""
+            <p className="text-secondary text-sm"> Total guest</p>
+
+            <Input
+              type="number"
+              placeholder="Enter total guests"
               onPointerEnterCapture={() => {}}
               onPointerLeaveCapture={() => {}}
-              crossOrigin="" type="date" className="bg-white  outline-none " />
+              crossOrigin=""
+              className="bg-white  outline-none "
+            />
           </div>
         </div>
         <div className="flex md:justify-end py-4 ">
           <MyBtn
-          onclick={()=>{}}
+            onclick={() => {}}
             title="Search FlateMate"
             icon={<i className=" fa-solid fa-arrow-right"></i>}
             style="  bg-onPrimary  w-full md:w-[200px] h-12 rounded-lg text-white font-bold"
